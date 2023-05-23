@@ -42,7 +42,8 @@ footer p {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
     background-color:  white;
 }
-.note h2 {
+.note h1 {
+    font-size: 1.1rem;
     color: blue;
     margin-bottom: 4px;
 }
