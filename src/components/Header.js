@@ -2,9 +2,9 @@ import React from 'react';
 import Footer from "./Footer";
 
 function Header() {
-    return <header>
+    return <div className={"header"}>
         <h1>Keeper</h1>
-    </header>
+    </div>
 }
 
 export default Header;

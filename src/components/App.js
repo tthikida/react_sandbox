@@ -8,7 +8,7 @@ import contacts from "../Contacts"
 function App() {
     return (
         <div>
-            <h1 className={"heading"}>Keeper</h1>
+            <Header />
             
             <Card   name={contacts[0].name}
                     tel={contacts[0].phone}
@@ -20,6 +20,7 @@ function App() {
                     email={contacts[1].email}
                     img={contacts[1].imgURL}
             />
+            <Footer />
         </div>
     );
 }
