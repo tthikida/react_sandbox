@@ -10,16 +10,26 @@ function App() {
         <div>
             <Header />
             
-            <Card   name={contacts[0].name}
+            <Card   key={contacts.id}
+                    id={contacts.id}
+                    name={contacts[0].name}
                     tel={contacts[0].phone}
                     email={contacts[0].email}
                     img={contacts[0].imgURL}
             />
-            <Card   name={contacts[1].name}
+            <Card   key={contacts.id}
+                    name={contacts[1].name}
                     tel={contacts[1].phone}
                     email={contacts[1].email}
                     img={contacts[1].imgURL}
             />
+            <Card   key={contacts.id}
+                    name={contacts[2].name}
+                    tel={contacts[2].phone}
+                    email={contacts[2].email}
+                    img={contacts[2].imgURL}
+            />
+            
             <Footer />
         </div>
     );
