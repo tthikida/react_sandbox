@@ -5,9 +5,9 @@ function Card(props) {
     return (
         <div className={"card"}>
             <div className={"top"}>
-                <p>id: {props.id}</p>
+                <p className={"idPos"}>id# {props.id}</p>
+                
                 <h2 className={"name"}>{props.name}</h2>
-                {/*<img className={"circle-img"} src={props.img} alt={"avatar_pic"}/>*/}
                 <Avatar img={props.img} />
             </div>
             <div className={"bottom"}>
